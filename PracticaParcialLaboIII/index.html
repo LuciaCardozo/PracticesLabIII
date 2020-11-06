@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/estilos.css">
+    <script src="./js/scripts.js" defer type="module"></script>
+    <title>Practica Parcial</title>
+</head>
+<body>
+    <!-- <header class="headerBanner">
+        <img src="./img/1.jpg" alt="banner">
+    </header> -->
+    <section class="container" id="dataIn">
+    <input type="text" id="txtId"  style="visibility: hidden;">
+    <label>
+        <select name="select" id="cmbSelect">
+        <option value="1">Nombre</option> 
+        <option value="2" selected>Apellido</option>
+        <option value="3">Sexo</option>
+        </select>
+        <input type="search" id="inputSearch"><button id="btnBuscador">🔍️</button>
+        </label>
+        <form>
+            <label>
+                Nombre: <input type="text" id="txtNombre" required>
+            </label>
+            <br><br>
+            <label>
+                Apellido: <input type="text" id="txtApellido" required>
+            </label>
+            <br><br>
+            <label>
+                Email: <input type="email" id="txtEmail" required>
+            </label>
+            <br><br>
+            <fieldset>
+                <legend>Genero</legend>
+                <label for="rdoM">
+                    <input type="radio" name="gender" id="rdoM" value="Masculino" checked>Masculino
+                </label>
+                <label for="rdoF">
+                    <input type="radio" name="gender" id="rdoF" value="Femenino">Femenino
+                </label>
+            </fieldset>
+            <button id="btnAlta" type="submit">Alta Persona</button>
+            <button id="btnBaja" type="submit" >Baja</button>
+            <button id="btnModificar" type="submit">Modificar</button>
+            <button id="btnClear" type="button">Limpiar</button>
+            <button id="btnTabla" type="button">Cargar Tabla</button>
+
+        </form>
+    </section>
+
+    
+    <section class="container">
+        <div id="divTabla"></div>
+    </section>
+
+    <div class="sk-circle" id="spinnerCircle">
+        <div class="sk-circle1 sk-child"></div>
+        <div class="sk-circle2 sk-child"></div>
+        <div class="sk-circle3 sk-child"></div>
+        <div class="sk-circle4 sk-child"></div>
+        <div class="sk-circle5 sk-child"></div>
+        <div class="sk-circle6 sk-child"></div>
+        <div class="sk-circle7 sk-child"></div>
+        <div class="sk-circle8 sk-child"></div>
+        <div class="sk-circle9 sk-child"></div>
+        <div class="sk-circle10 sk-child"></div>
+        <div class="sk-circle11 sk-child"></div>
+        <div class="sk-circle12 sk-child"></div>
+      </div>
+</body>
+</html>
